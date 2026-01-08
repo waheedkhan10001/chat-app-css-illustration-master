@@ -1,51 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Samuel Green
-  Available to Walk
-
-  That sounds great. I’d be happy with that.
-
-  Could you send over some pictures of your dog, please?
-
-  Here are a few pictures. She’s a happy girl!
-
-  Can you make it?
-
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
-  Simple booking
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Chat App User Illustration Master</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Line 15-16 - Update to include all weights from style guide -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <main class="page">
+      <section class="content">
+        <div class="phone">
+          <div class="screen">
+            <div class="notch"></div>
+            <div class="screen-header">
+              <div class="header-row">
+                <button class="back-arrow" aria-label="Go back"><</button>
+                <div class="avatar">
+                  <img src="/images/avatar.jpg" alt="samuel green avatar" />
+                </div>
+                <div class="header-text">
+                  <div class="name">Samuel Green</div>
+                  <div class="status">Available to Walk</div>
+                </div>
+                <button class="menu"></button>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="messages">
+                <div class="bubble left">
+                  That sounds great. I’d be happy with that.
+                </div>
+                <div class="bubble left">
+                  Could you send over some pictures of your dog, please?
+                </div>
+                <div class="bubble images right">
+                  <img src="/images/dog-image-1.jpg" alt="dog-image-1" />
+                  <img src="/images/dog-image-2.jpg" alt="dog-image-2" />
+                  <img src="/images/dog-image-3.jpg" alt="dog-image-3" />
+                </div>
+                <div class="bubble right">
+                  Here are a few pictures. She’s a happy girl!
+                </div>
+                <div class="bubble right">Can you make it?</div>
+                <div class="bubble left">
+                  She looks so happy! The time we discussed works. How long
+                  shall I take her out for?
+                </div>
+                <div class="bubble option left">
+                  <span class="radio"></span>
+                  <span class="label">30 minute walk</span>
+                  <span class="price">$ 29</span>
+                </div>
+                <div class="bubble option left">
+                  <span class="radio"></span>
+                  <span class="label">1 hour walk</span>
+                  <span class="price">$ 49</span>
+                </div>
+              </div>
+              <div class="input-bar">
+                <span class="placeholder">Type a message…</span>
+                <button class="send">></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">
+          <h1>Simple booking</h1>
+          <p>
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Abdul Waheed Khan</a>.
+      </div>
+    </footer>
+  </body>
 </html>
